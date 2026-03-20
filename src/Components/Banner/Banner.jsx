@@ -5,9 +5,9 @@ const Banner = () => {
   return (
     <div className="hero bg-base-200 shadow-sm p-16">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
+        <img className="w-6/12"
           src={bookimage}
-          className="w-6/12"
+          
         />
         <div>
           <h1 className="text-5xl font-bold py-6">Books to freshen up your bookshelf</h1>
